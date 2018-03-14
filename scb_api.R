@@ -3,9 +3,9 @@ scb_api <- function(url, body = '{ "query": [], "response": { "format": "json" }
   # Hämtar data från SCBs statistikdatabas. 
   #
   # Argument:
-  #  url: Url till den tabell i SSDn som skall hämtas. 
+  #  url: Url till den tabell i SSDn som skall hämtas. (Hämtas från aktuell tabell i SSDn).
   #    datatyp: sträng
-  #  body: Fråga i json-format (Kan hämtas från aktuell tabell i SSDn).
+  #  body: Fråga i json-format (Hämtas från aktuell tabell i SSDn).
   #    datatyp: sträng (använd single quotes)
   #  ua: User agent. Text som identifierar användaren  
   #    datatyp: sträng
